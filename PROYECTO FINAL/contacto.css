@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------HEADER---------------*/
+.header {
+    text-align: center;
+    padding: 40px 0 20px;
+    border-bottom: 1px 
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+     font-family: "Playfair Display", serif;
+}
+
+.header span {
+    color: #037bc0;
+    font-weight: 500;
+     font-family: "Playfair Display", serif bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px 20px;
+   
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+}
+.nav {
+    border-top: 1px solid #ddd;
+
+}
+
+.nav a:hover {
+    color: #037bc0;
+
+}
+
+
+/* -------------------------------- CONTENidooo.------------------------------*/
+.contenedor {
+    max-width: 600px; 
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.encabezado {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.encabezado h2 {
+    font-size: 40px;
+    color: #000;
+    font-family: "Playfair Display", serif;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+/* .....................CONTENIDOOOOOOOOOOO................................ */
+fieldset {
+    width: 90%;
+    border: 1px solid black;
+    padding: 40px 20px 20px;
+    background: #f7f7f7;
+    position: relative;
+    box-sizing: border-box;
+}
+
+legend {
+    background-color: #005485;
+    color: white;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    right: 20px;
+}
+
+.datos {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 540;
+
+}
+
+.id label{
+     font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 540;
+
+}
+
+.datos label {
+    width: 150px;
+    font-size: 14px;
+}
+
+.datos input,
+.datos textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+}
+
+
+.datos textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.formulario fieldset {
+    width: 90%; 
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding: 30px 20px 20px;
+    background: #f7f7f7;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 540;
+
+}
+
+.formulario label {
+    display: inline-block;
+    width: 110px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+   
+    width: calc(100% - 160px);
+    padding: 10px;
+    border: 1px solid #dadada;
+    margin-bottom: 12px;
+    
+}
+
+.pais
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.opciones {
+    margin-bottom: 15px;
+}
+
+.opciones label {
+    display: block;
+    width: auto;
+    margin-bottom: 10px;
+    
+}
+
+.opciones input {
+    width: auto;
+    margin-right: 8px;
+}
+
+.acciones {
+    width: 90%;
+}
+
+button {
+    background-color: #8bc34a;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+     font-size: 19px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+
+}
+
+button:hover {
+    background-color: #7cb342;
+}
+
+ /* -----------------------------------------------------------*/
+/* FOOTER GENERAL */
+.footer {
+
+    padding: 50px 0 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+}
+
+.contenedor-footer {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.columna {
+    width: 30%;
+}
+
+.columna h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Raleway", sans-serif;
+}
+
+.columna li {
+    margin-bottom: 10px;
+}
+
+.columna a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.columna a:hover {
+
+   color: #037bc0;
+}
+.copyright {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+}
+
